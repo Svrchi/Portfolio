@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import illustration from "../../img/yadi.svg";
 
 const intro = () => {
   return (
@@ -17,19 +18,20 @@ const intro = () => {
               <div className="i-title-item">Keyframe Test 5</div>
             </div>
           </div>
-          <div className="i-des">
+          <p className="i-des">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
             dolor purus non enim praesent elementum facilisis. Amet nisl
             suscipit adipiscing bibendum est ultricies integer quis auctor.
             Aenean sed adipiscing diam donec adipiscing tristique risus nec
             feugiat.
-          </div>
+          </p>
+
         </div>
       </div>
       <div className="i-right">
-        Right
-        <img src="" alt="temp" className="i-img" />
+        <div className="i-bg"></div>
+        <img src={illustration} alt="temp" className="i-img" />
       </div>
     </div>
   );

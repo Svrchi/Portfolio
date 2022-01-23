@@ -25,6 +25,7 @@ margin: 0;
 
 .i-right{
     flex:1;
+    position: relative;
 } 
 
 .i-left-intro {
@@ -76,4 +77,22 @@ margin: 0;
     color: rgb(88, 172, 88);
     display: flex;
     align-items: center;
+}
+
+.i-bg {
+    clip-path: circle(50% at 50% 50%);
+    background-color: #6d63ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* z-index: 0; */
+}
+
+.i-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
 }
